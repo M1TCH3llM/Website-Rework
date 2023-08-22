@@ -1,13 +1,16 @@
+/* Genral settings */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* set background color */
 body {
   background-color: #d9dcd6;
 }
 
+/* header settings */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -21,6 +24,7 @@ header h1 {
   font-size: 48px;
 }
 
+/* adjust header h1 */
 .seo {
   color: #d9dcd6;
 }
@@ -42,6 +46,7 @@ header ul li {
   margin-left: 25px;
 }
 
+/* clears defalt list/link settings */
 a {
   color: #ffffff;
   text-decoration: none;
@@ -51,6 +56,7 @@ p {
   font-size: 16px;
 }
 
+/* img settings for hero image*/
 figure {
   height: 800px;
   width: 100%;
@@ -70,12 +76,14 @@ figure {
   margin-left: 25px;
 }
 
+
 main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* set up for right side bar */
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -98,6 +106,7 @@ aside div img {
   max-width: 150px;
 }
 
+/* set up for main articals */
 article {
   margin-bottom: 20px;
   padding: 50px;
@@ -116,6 +125,7 @@ article h2 {
   font-size: 36px;
 }
 
+/* footer settings */
 footer {
   padding: 30px;
   clear: both;
